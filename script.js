@@ -25,7 +25,7 @@ continueBtn.addEventListener("click",()=>goToStage(2));
 const fireCanvas=$("fireworksCanvas"),fctx=fireCanvas.getContext("2d");
 let fw=0,fh=0,fhw=0,fhh=0,letters=[];
 const fopts={
-strings:["HAPPY","BIRTHDAY!","ABIDA"],charSize:30,charSpacing:35,lineHeight:40,
+strings:["HAPPY","BIRTHDAY!","Mehenaz"],charSize:30,charSpacing:35,lineHeight:40,
 fireworkPrevPoints:10,fireworkBaseLineWidth:5,fireworkAddedLineWidth:8,
 fireworkSpawnTime:200,fireworkBaseReachTime:30,fireworkAddedReachTime:30,
 fireworkCircleBaseSize:20,fireworkCircleAddedSize:10,fireworkCircleBaseTime:30,
@@ -143,7 +143,7 @@ const p1=$("p1"),p2=$("p2"),p3=$("p3"),p4=$("p4");
 notes=[
 {f:262,d:.5,t:"Hap",p:p1},{f:262,d:.5,t:"py ",p:p1},{f:294,d:1,t:"Birth",p:p1},{f:262,d:1,t:"day ",p:p1},{f:349,d:1,t:"To ",p:p1},{f:330,d:2,t:"You",p:p1},
 {f:262,d:.5,t:"Hap",p:p2},{f:262,d:.5,t:"py ",p:p2},{f:294,d:1,t:"Birth",p:p2},{f:262,d:1,t:"day ",p:p2},{f:392,d:1,t:"To ",p:p2},{f:349,d:2,t:"You",p:p2},
-{f:262,d:.5,t:"Hap",p:p3},{f:262,d:.5,t:"py ",p:p3},{f:523,d:1,t:"Birth",p:p3},{f:440,d:1,t:"day ",p:p3},{f:349,d:1,t:"Dear ",p:p3},{f:330,d:1,t:"Abi",p:p3},{f:294,d:3,t:"da",p:p3},
+{f:262,d:.5,t:"Hap",p:p3},{f:262,d:.5,t:"py ",p:p3},{f:523,d:1,t:"Birth",p:p3},{f:440,d:1,t:"day ",p:p3},{f:349,d:1,t:"Dear ",p:p3},{f:330,d:1,t:"Mehe",p:p3},{f:294,d:3,t:"naz",p:p3},
 {f:466,d:.5,t:"Hap",p:p4},{f:466,d:.5,t:"py ",p:p4},{f:440,d:1,t:"Birth",p:p4},{f:349,d:1,t:"day ",p:p4},{f:392,d:1,t:"To ",p:p4},{f:349,d:2,t:"You",p:p4}
 ];
 notes.forEach(n=>{n.sp=document.createElement("span");n.sp.textContent=n.t;n.p.appendChild(n.sp)});
